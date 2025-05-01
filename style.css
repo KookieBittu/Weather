@@ -161,7 +161,7 @@ h1 {
         font-size: 14px;
     }
 
-    .input-wrapper button,
+    
     .location-btn {
         width: 100%;
         margin-top: 10px;
@@ -171,6 +171,7 @@ h1 {
     .latlong-tab {
         font-size: 14px;
         padding: 10px;
+        
     }
 
     .latlong-info {
