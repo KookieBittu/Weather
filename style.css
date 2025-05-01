@@ -141,3 +141,55 @@ h1 {
     height: 27px;
     width: 100%;
 } */
+@media (max-width: 480px) {
+    .container {
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .search-box {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .input-wrapper {
+        width: 100%;
+    }
+
+    .input-wrapper input {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .input-wrapper button,
+    .location-btn {
+        width: 100%;
+        margin-top: 10px;
+        height: 40px;
+    }
+
+    .latlong-tab {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .latlong-info {
+        text-align: center;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .locbtn {
+        margin-left: 0;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    #weather-img {
+        width: 60px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}
