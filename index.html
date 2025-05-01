@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Weather App</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="search-box">
+            <div class="input-wrapper">
+                <input id="city-input" type="text" placeholder="Enter City">
+                <button id="search-button" aria-label="Search"><i class="fas fa-search"></i></button>
+            </div>
+            
+        </div>
+
+        <div class="latlong-tab">
+            <div class="locbtn">
+            <button id="get-location" class="location-btn" aria-label="Get Current Location">
+                <i class="fas fa-location-dot"></i>
+            </button>
+        </div>
+        <div class="latlong-info">
+            <h4>Your Current Location</h4>
+            <p id="latitude-box"><strong>Latitude:</strong> <span id="latitude">--</span></p>
+            <p id="longitude-box"><strong>Longitude:</strong> <span id="longitude">--</span></p>
+        </div>
+    </div>
+
+        <div class="weather-info">
+            <h3 id="city-name"></h3>
+            <h6 id="city-time"></h6>
+            <p id="city-temp"></p>
+            <h4 id="weather-condition"></h4>
+            <img id="weather-img">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
